@@ -1,0 +1,24 @@
+---
+- studnets: 
+  - name: ashok
+    phono: 787878787
+    address: 
+      doorno:  67
+      streetno: 2
+      pincode: 7878787
+
+  - name: avanti
+    phono: 78787878787
+    address: 
+        doorno:  67
+        streetno: 2
+        pincode: 7878787
+
+  - name: chandu
+    phono: 78787878787
+    address: 
+     doorno:  67
+     streetno: 2
+     pincode: 7878787
+  
+
