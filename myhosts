@@ -13,10 +13,7 @@
 172.31.5.5
 
 
-[mywebservers:vars]
-myvariable= value
-mywebpackonubuntu= apache2
-mywebpackonredhat= httpd
+
 
 
 
