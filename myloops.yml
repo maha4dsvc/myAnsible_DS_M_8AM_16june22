@@ -1,0 +1,12 @@
+---
+- hosts: 172.31.15.241
+  become: yes
+  tasks:
+  - name: i want execute multo package
+    apt:
+      name: "{{ item }}"
+      state: present
+    loops:
+      - git
+      - tree
+      - wget 
