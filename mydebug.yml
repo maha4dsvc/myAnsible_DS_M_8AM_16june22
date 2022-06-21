@@ -4,3 +4,8 @@
   tasks:
   - name: execute linux command 
     command: hostname -f
+    register: myfirsttaskresult
+
+  - name: i want tp see first task result
+    debug:
+       msg: "{{myfirsttaskresult}}"
