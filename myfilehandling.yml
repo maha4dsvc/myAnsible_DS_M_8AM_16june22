@@ -19,4 +19,10 @@
       src: myindexfile.j2
       dest: /var/www/html/index.html
 
+  - name: download remote file
+    get_url:
+       url: https://abhi15june22.s3.us-west-2.amazonaws.com/mahaLogin.war
+       dest: /home/ubuntu/mahaLogin.war
+       force_basic_auth: yes
+
 
