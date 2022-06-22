@@ -2,7 +2,7 @@
 - hosts: 172.31.15.241
   become: yes
   tasks:
-  - name: i want execute multo package
+  - name: i want execute mult package
     apt:
       name: "{{ item }}"
       state: present
@@ -10,3 +10,4 @@
       - git
       - tree
       - wget 
+    tags: mymultipack
