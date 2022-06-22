@@ -27,7 +27,7 @@
        force_basic_auth: yes
   handlers:
   - name: restartwebserver
-    service:
+    systemd:
        name: apache2
        state: restarted
   
